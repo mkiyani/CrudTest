@@ -1,0 +1,18 @@
+version: '3'   
+services:
+  db: 
+    build: ./DB
+  crudtest.ui:
+    build:
+        context: .
+        dockerfile: UI/Dockerfile
+    ports:  
+      - '8070:80'
+    depends_on:
+      - db
+    
+    
+    
+
+    
+    

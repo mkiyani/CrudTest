@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "wwwroot/lib/intl-tel-input/Init-phoneNumber.min.js",
+    "inputFiles": [
+      "wwwroot/lib/intl-tel-input/Init-phoneNumber.js"
+    ]
+  }
+]

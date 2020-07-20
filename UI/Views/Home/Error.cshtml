@@ -1,0 +1,11 @@
+﻿
+@model ErrorViewModel
+
+@{
+    ViewData["Title"] = "Oops!";
+}
+<h1 class="text-danger">Oops!</h1>
+@if (Model?.Exception != null)
+{
+    <p class="alert alert-danger">@(Model.Exception.InnerException?.Message ?? Model.Exception.Message)</p>
+}
